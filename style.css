@@ -1,0 +1,693 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+
+}
+body{
+
+    width: 100%;
+    max-width: 1520px;
+    overflow-x: hidden;
+}
+.navBar h3{
+    padding: 13px 0px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+color: white;
+}
+.navBar ul{
+    float: right;
+    display: flex;
+    list-style: none;
+    padding: 15px 0px;
+  
+}
+.navBar  ul li a {
+
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.mainContainer{
+    background: url(./images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37em;
+    background-repeat: round;
+    padding: 10px 100px;
+
+}
+.hamburger{
+    display: none;
+}
+
+.subSection{
+    margin-top: 50px;
+    color: white;
+}
+.subSection p {
+    margin: 19px 0px;
+    font-size: 13px;
+    opacity: 0.5;
+
+}
+.mainImg img{
+    float: right;
+    margin: -39px 0px;
+    max-width: 30%;
+}
+.subSection h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 41px;
+}
+.subSection strong{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 28px;
+}
+.button{
+    max-width: 150px;
+    padding: 14px 1px;
+    text-align: center;
+    border-radius: 54px;
+    color: white;
+    background-color: #f56d63;
+    cursor: pointer;
+}
+.secondMain img{
+    padding: 10px 0px;
+    max-width: 50%;
+ 
+}
+/* .fieldset{
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  
+} */
+
+.secondMain{
+    padding: 50px 100px;
+}
+.secondMain h3{
+    position: absolute;
+    left: 814px;
+    top: 106%;
+
+}
+.secondMain p {
+    margin-left: 53%;
+    position: absolute;
+    top: 117%;
+}
+
+.p{
+ 
+    margin-left: 60%;
+    position: absolute;
+    top: 134%;
+
+}
+.btn2{
+    padding: 13px 11px;
+    text-align: center;
+    border-radius: 46px;
+    color: white;
+    background-color: #00bcd4;
+    cursor: pointer;
+    float: right;
+    margin: 0px 29%;
+    margin-top: -13%;
+    max-width: 153px;
+}  
+.thirdContainer{
+
+    padding: 10px 100px;
+    height: 40em;
+}
+.mainAbout{
+    margin-top: 25px;
+}
+
+.aboutIcon h3{
+    
+    margin: 24px 80px;
+
+}
+.aboutIcon p{
+    margin: 24px 80px;
+}
+.aboutIcon img{
+    margin-top: 13px;
+
+}
+
+.aboutIcon1 h3{
+    
+    margin: 24px 80px;
+
+}
+.aboutIcon1 p{
+    margin: 24px 80px;
+}
+
+.aboutIcon2 h3{
+    
+    margin: 24px 80px;
+
+}
+.aboutIcon2 p{
+    margin: 24px 80px;
+}
+
+.thirdContainer img{
+    float: right;
+    max-width: 50%;
+}
+.fourthContainer{
+    background: royalblue;
+    padding: 97px 121px;
+    display: flex;
+    overflow-y: scroll;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.firstBox{
+  
+    padding: 53px 35px;
+    margin: 13px;
+    background-color: white;
+}
+.firstBox img{
+    background-color: #00bcd4;
+    padding: 16px 18px;
+    border-radius: 60px;
+}
+.box-Btn{
+
+        padding: 14px 52px;
+  
+        border-radius: 30px;
+        color: white;
+        background-color: #00bcd4;
+        cursor: pointer;
+   
+        margin: 31px 8%;
+      
+}
+.box-Btn1{
+
+    padding: 14px 39px;
+    border-radius: 30px;
+    color: white;
+    background-color: #00bcd4;
+    cursor: pointer;
+
+    margin: 31px 8%;
+  
+}
+
+.box-Btn2{
+
+    padding: 14px 52px;
+
+    border-radius: 30px;
+    color: white;
+    background-color: #00bcd4;
+    cursor: pointer;
+
+    margin: 31px 7%;
+  
+}
+.firstBox h4{
+    line-height: 50px;
+}
+.firstBox p{
+    line-height: 24px;
+}
+.prev {
+    cursor: pointer;
+    position: absolute;
+    padding: -23px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 -8px 18px 0;
+    user-select: none;
+    margin: 15% -83px;
+    padding: 9px 15px;
+    border-radius: 50px;
+  }
+  .next{
+    cursor: pointer;
+    position: absolute;
+    padding: -23px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 -8px 18px 0;
+    user-select: none;
+    margin: 14% 37px;
+    padding: 4px 10px;
+  }
+
+  
+  .next {
+    right: 64px;
+    border-radius: 3px 0 0 3px;
+   
+  }
+  
+.next1{
+    
+    float: right;
+    cursor: pointer;
+
+}
+  .prev:hover, .next:hover {
+   background-color: white;
+   opacity: 0.5;
+  }
+  .mainDot{
+      display: flex;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 16px;
+    margin: 0px 4px;
+    background-color: #bbb;
+    border-radius: 55%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    top: 103%;
+    right: 88vh;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .FaQ{
+    padding: 10px 100px;
+  }
+  .FaQ h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.FaQ p{
+    text-align: center;
+  
+}
+.leftside{
+    padding: 10px 100px;
+    line-height: 25px;
+} 
+.leftside h4{
+    font-size: 21px;
+    margin-top: 30px;
+} 
+.leftside p {
+    
+    margin-top: 20px;
+    text-align: left;
+}
+.btn{
+    padding: 14px 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: #00bcd4;
+    cursor: pointer;
+    margin: 31px 0%;
+    text-align: center;
+
+    max-width: 139px;
+}
+
+.secondp a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+}
+.mainForm{
+    display: flex;
+  
+}
+
+.allsub{
+
+    background-color: #1683ad;
+    display: flex;
+    padding: 92px 123px;
+    margin: auto;
+    max-width: 1188px;
+}
+ 
+
+.name{
+    padding: 0px 29px;
+   
+}
+.name input{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 12px 20px;
+    background-color: #00bcd4;
+    max-width: 105%;
+    margin: 0px 11px;
+}
+.email input{
+    padding: 12px 19px;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #00bcd4;
+}
+.message{
+    display: block;
+    
+}
+.message input{
+    width: 73vh;
+    height: 20vh;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #00bcd4;
+    margin: 73px -456px;
+}
+
+.sub-button{
+
+    max-width: 150px;
+    padding: 14px 1px;
+    text-align: center;
+    border-radius: 54px;
+    color: white;
+    background-color: #f56d63;
+    cursor: pointer;
+ 
+    position: relative;
+
+    bottom: 88px;
+    left: 67%;
+}
+
+
+.mainFooter{
+    margin: 50px 150px;
+    text-align: center;
+}
+.rightside{
+    float: right;
+    margin: 45px 189px;
+}
+
+.first{
+    
+    background: #f7f7f7;
+   
+    padding: 19px 10px;
+    width: 389px;
+}
+.second{
+    background: #f7f7f7;
+    margin: 3px 0px;
+    padding: 19px 10px;
+    width: 389px;
+}
+.third{
+    background: #f7f7f7;
+    /* margin: 23px 0px; */
+    padding: 19px 10px;
+    width: 389px;
+}
+.fourth{
+    background: #f7f7f7;
+    margin: 3px 0px;
+    padding: 19px 10px;
+    width: 389px;
+}
+.five{
+    background: #f7f7f7;
+    /* margin: 23px 0px; */
+    padding: 19px 10px;
+    width: 389px;
+}
+.six{
+    background: #f7f7f7;
+    margin: 3px 0px;
+    padding: 19px 10px;
+    width: 389px;
+}
+.secondPart{
+    display: none;
+}
+
+
+@media screen and (max-width:1073px){
+
+   .subSection img{
+    float: right;
+    margin: -39px 0px;
+    max-width: 50%;
+    width:auto;
+    
+   } 
+
+
+ .subSection h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 41px;
+    text-align: center;
+}
+
+.subSection strong {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+}
+.subSection p {
+    margin: 19px 0px;
+    font-size: 13px;
+    opacity: 0.5;
+    text-align: center;
+}
+.button{
+    max-width: 150px;
+    padding: 14px 1px;
+    text-align: center;
+    border-radius: 54px;
+    color: white;
+    background-color: #f56d63;
+    cursor: pointer;
+    margin: auto;
+}
+.mainImg img{
+display: none;
+}
+.secondMain h3{
+    position: unset;
+
+}
+.secondMain p {
+    position: unset;
+ 
+    margin: auto;
+    padding: 15px 0px;
+
+}
+.p {
+ 
+    position: unset;
+   
+    padding: 5px 0px;
+    margin: 0px 100px;
+}
+.btn2 {
+    padding: 13px 11px;
+    text-align: center;
+    border-radius: 46px;
+    color: white;
+    background-color: #00bcd4;
+    cursor: pointer;
+    float: left;
+
+    max-width: 153px;
+    margin: auto;
+    margin-left: 96px;
+}
+
+
+.secondMain img {
+    padding: 10px 0px;
+    max-width: 100%;
+}
+
+.secondMain {
+    padding: 10px 100px;
+}
+.thirdContainer{
+padding: 10px 100px;
+    /* height: 40em; */
+    margin: 80px 0px;
+}
+
+
+.thirdContainer img{
+    padding: 10px 0px;
+    max-width: 100%;
+    float: unset;
+}
+.thirdContainer{
+    height: unset;
+}
+
+.firstBox {
+    margin: 15px 27px;
+    background-color: white;
+    margin: auto 10px;
+    padding: 18px 0px;
+}
+.rightside {
+    float: none;
+    overflow-y: scroll;
+    padding: 33px 101px;
+    margin: auto;
+}
+.allsub{
+ /* background-color: #1683ad; */
+    /* display: flex; */
+    /* width: 57%; */
+    /* margin: 0px auto; */
+
+    /* justify-content: center; */
+    /* margin: 0px -139px; */
+    overflow-x: hidden;
+    justify-content: center;
+    margin: auto;
+}
+.map iframe{
+     width: 1020px;
+}
+.mainForm{
+    display:block;
+    width: auto;
+}
+.message {
+    /* position: unset;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* margin: 245% 805px; */
+    margin: none}
+
+.message input {
+    padding: 14px 12px;
+    height: 20vh;
+    border: none;
+    outline: none;
+    background: none rgb(0, 188, 212);
+    /* width: auto; */
+    max-width: 457px;
+}
+.sub-button{
+    cursor: pointer;
+    /* margin: auto; */
+    margin: -38px -21%;
+}
+
+.aboutIcon p {
+    margin: 26px 0px;
+    margin-left: 75px;
+}
+.aboutIcon1 p {
+    margin: 26px 0px;
+    margin-left: 75px;
+}
+.aboutIcon2 p {
+    margin: 26px 0px;
+    margin-left: 75px;
+}
+.aboutIcon1 h3 {
+    margin: 16px 74px;
+}
+.aboutIcon2 h3 {
+    margin: 14px 77px;
+}
+
+map .iframe{
+    max-width: 80%;
+}
+.mainFooter{
+    margin: 44px 0px;
+    text-align: center;
+}
+.hamburger{
+
+    float: right;
+    display: block;
+    margin: 20px -65px;
+    cursor: pointer;
+}
+.hamburger img{
+    height: 42px;
+}
+.navBar ul.open {
+
+
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 73%;
+    top: 59px;
+    max-width: 141px;
+
+    
+
+}
+.navBar ul li  {
+
+
+    padding: 10px 23px;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+} 
+    
+.navBar ul{
+  display: none;        
+}
+.navBar ul :hover{
+border: 1px solid;
+transition: all .5s ease;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
